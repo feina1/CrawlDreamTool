@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3.css" type="text/css" rel="stylesheet"/>
+    <link href="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/ecipplatform/js/jquery/jquery-1.7.2.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/replacePlaceHolderByData.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/pagination.js">
+    </script>
+  </head>
+  <body>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <div id="header">
+      <img src="/ecipplatform/images/head_03.jpg" width="990"/>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <form id="formx" name="formx" action="" method="post">
+      <input type="hidden" id="org" name="org" value="1402"/>
+      <input type="hidden" id="id" name="id" value="53983378"/>
+      <input type="hidden" id="seq_id" name="seq_id" value="26"/>
+      <input type="hidden" id="corp_name" name="corp_name" value="飞利浦电子（苏州）有限公司"/>
+      <input type="hidden" id="reg_no" name="reg_no" value="320500400040155"/>
+      <input type="hidden" id="status" name="status"/>
+      <input type="hidden" id="reportid" name="reportid"/>
+      <input type="hidden" id="admit_main" name="admit_main"/>
+      <input type="hidden" id="report_year" name="report_year"/>
+      <input type="hidden" id="existsAbnormal" name="existsAbnormal" value="false"/>
+      <div id="details" class="clear">
+        <div>
+          <div id="zhucehao">
+            <h2>
+              飞利浦电子（苏州）有限公司       注册号：320500400040155
+								         
+			               
+              <script type="text/javascript">
+//<![CDATA[
+
+	      var existsAbnormal = false;
+	      jQuery(function() {
+	          if(existsAbnormal){
+	        	  jQuery('#zhucehao').find('h2').addClass('existsAbnormal');
+	          }
+	      });
+      
+//]]>
+              </script>
+            </h2>
+            <br/>
+          </div>
+        </div>
+        <div id="leftTabs">
+          <ul>
+            <li onclick="togo('1')" style="margin-bottom: 2px;">
+              <p>
+                
+							工
+                <br/>
+                商
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('2')" style="margin-bottom: 2px;">
+              <p>
+                
+							企
+                <br/>
+                业
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li class="current">
+              <p style="padding-top: 15px;">
+                
+							其
+                <br/>
+                他
+                <br/>
+                部
+                <br/>
+                门
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('4')" style="margin-bottom: 2px;">
+              <p>
+                司
+                <br/>
+                法
+                <br/>
+                协
+                <br/>
+                助
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div id="detailsCon">
+          <div class="dConBox">
+            <div class="tabs" id="tabs">
+              <ul>
+                <li id="1" class="current" onclick="r1(),changeStyle('tabs',this)">
+                  行政许可信息
+                </li>
+                <li id="2" onclick="r2(),changeStyle('tabs',this)" class="">
+                  行政处罚信息
+                </li>
+              </ul>
+            </div>
+            <div id="xingzhengxuke" style="display: block;">
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr>
+                    <th colspan="9" style="text-align: center;">
+                      行政许可信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="12%" style="text-align: center;">
+                      许可文件编号
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      许可文件名称
+                    </th>
+                    <th width="12%" style="text-align: center;">
+                      有效期自
+                    </th>
+                    <th width="12%" style="text-align: center;">
+                      有效期至
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      许可机关
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      许可内容
+                    </th>
+                    <th width="8%" style="text-align: center;">
+                      状态
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      详情
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="xingzhengchufa" style="display: none;">
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="6" style="text-align: center;">
+                      行政处罚信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      行政处罚
+                      <br/>
+                      决定书文号
+								
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      违法行为类型
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      行政处罚内容
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      作出行政处罚
+                      <br/>
+                      决定机关名称
+								
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      作出行政处罚
+                      <br/>
+                      决定日期
+								
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <div id="footer">
+      <img src="/ecipplatform/images/bottom_js.gif" width="990"/>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+	function r1(){
+		document.getElementById('xingzhengxuke').style.display='block';
+		document.getElementById('xingzhengchufa').style.display='none';
+		}
+		function r2(){
+		document.getElementById('xingzhengxuke').style.display='none';
+		document.getElementById('xingzhengchufa').style.display='block';
+		}
+
+		function togo(str) {
+	      var $form = jQuery('#formx');
+	      var action = "";
+	      if (str == '1') {
+	        action="outer_fiei_queryCorpInfor_gsRelease.jsp";
+	      } else if (str == '2') {
+	        action="outer_fiei_queryCorpInfo_qyRelease.jsp";
+	      } else if (str == '3') {
+	        action="outer_fiei_queryCorpInfo_qtbmRelease.jsp";
+	      }else if (str == '4') {
+          action="outer_fiei_queryJudicialAssistance.jsp";
+        }
+	      
+	      $form.attr('action',action);
+	      $form.attr('target','_self');    
+	      $form.submit();
+		}
+	
+//]]>
+    </script>
+    <script type="text/javascript" defer="defer">
+//<![CDATA[
+
+		function changeStyle(divId, ele) {
+			var liAry = document.getElementById(divId).getElementsByTagName(
+					"li");
+			var liLen = liAry.length;
+			var liID = ele.id;
+			for ( var i = 0; i < liLen; i++) {
+				if (liAry[i].id == liID) {
+					liAry[i].className = "current";
+
+				} else {
+					liAry[i].className = "";
+				}
+			}
+		}
+	
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	    var org = '1402';
+	    var id = '53983378';
+	    var seq_id = '26';
+	    var getPath = function(){
+	      return '/ecipplatform';
+	    };
+	    var reg_no = '320500400040155';
+	
+//]]>
+    </script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CrawlDreamTool</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id='main'>
+		<div id='loading'>
+			<div class='pic'>
+				<img src='img/wait2.gif'>
+			</div>
+		</div>
+		<div class='fixedDiv noclick_ibm' id='fixedDiv'>
+			<select id='model_select'><option value='single'>Single</option><option value='multi'>Multi</option></select>
+			<input type='text' placeholder='name' id='nodename'><input style='display:none;' type='text' placeholder='Value' id='currentNode_ibm'>
+			<input type='text' placeholder='path' id='nodepath'>
+			<label class='clickBtn' id='addfield'>Add</label>
+			<label class='clickBtn' id='resetBtn'>Cancle</label>
+		</div>
+		<div id='top'>
+		
+		</div>
+		<div id='bottom' class='noclick_ibm'>
+			<div class='btop'>
+			<!--  	<div class='modelselect'>
+					<select id='model_select'>
+						<option value='model1'>Model1</option>
+						<option value='model2'>Model2</option>
+					</select>
+				</div> -->
+				<div class='inputarea'>
+					<input type='text' placeholder="please input URL"  id='urlPath'>
+				</div>
+				<div class='selectarea'>
+					<select id='pattern_select'>
+						<option value='nopattern'>Generate Crawl Rule</option>
+						<option value='pattern'>Apply Crawl Rule</option>
+					</select>
+					
+					<label  class='clickBtn' id='AddBtn_url'>Get Page</label>
+					<label  class='clickBtn' id='clear_btn' style="margin-right:10px;">Clear</label>
+				</div>
+			</div>
+			<div class='bbootom'>
+				<div class='bbleft' id='bbleft'>
+					<div class='item'><label class='title'>Value</label><input type='text' placeholder='Value' ></div>
+					<div class='item'><label class='title'>Name</label><input type='text' placeholder='name' ></div>
+					<div class='btn'><label class='clickBtn' >Add New Rule</label></div>
+				</div>
+				<div class='bbmiddle'>
+					<table id='showNodeTable'>
+						<tr><td>Name</td><td>Value</td><td>Path</td></tr>
+					</table>
+				</div>
+				<div class='bbright' id='bbright'>
+				 <div id='showjson' contentEditable="true">
+				  
+				 </div>
+				 <div class='javabtn'>
+				 <label class='clickBtn' id='javabtn'>Save To Clipboard</label><!--<a  style="display:none" target="_blank" href="CrawlCode.java"><span  id='savelink'>javaCode</span></a>-->
+				 <script type="text/javascript" src="js/ZeroClipboard/ZeroClipboard.min.js"></script>
+				 <span style="float:right; color:blue">Download crawl <a href='CrawlCode.java'>code</a> and <a href='lib.zip'>lib</a></span>
+				 </div>
+				 
+				<!-- 	<div class='inputarea'><input type='text' placeholder='name' id='pagename_ibm'></div>
+					 <div class='btn'><label class='savebtn clickBtn' id='getrulelist'>get rule list</label></div> 
+					<div class='btn'><label class='savebtn clickBtn' id='savePattern'>Save Rule File</label></div>  -->
+				</div>
+			</div>
+			<div id='showallcontent'></div>
+		</div>
+	</div>
+	<script src='js/jquery-2.1.4.min.js'></script>
+	<script src='js/platform.js'></script>
+	<script type='text/javascript' src='js/main.js'></script>
+	<script type="text/javascript" src="js/jquery.zclip/jquery.zclip.js"></script>
+</body>
+</html>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <link href="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/ecipplatform/js/jquery/jquery-1.7.2.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/replacePlaceHolderByData.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/paginations.js">
+    </script>
+  </head>
+  <body>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <div id="header">
+      <img src="/ecipplatform/images/head_03.jpg" width="990"/>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <form id="formx" name="formx" action="" method="post">
+      <input type="hidden" id="org" name="org" value="1402"/>
+      <input type="hidden" id="id" name="id" value="53983378"/>
+      <input type="hidden" id="seq_id" name="seq_id" value="26"/>
+      <input type="hidden" id="corp_name" name="corp_name" value="飞利浦电子（苏州）有限公司"/>
+      <input type="hidden" id="reg_no" name="reg_no" value="320500400040155"/>
+      <input type="hidden" id="existsAbnormal" name="existsAbnormal" value="false"/>
+      <input type="hidden" id="status" name="status"/>
+      <input type="hidden" id="reportid" name="reportid"/>
+      <input type="hidden" id="admit_main" name="admit_main"/>
+      <input type="hidden" id="report_year" name="report_year"/>
+      <div id="details" class="clear">
+        <div>
+          <div id="zhucehao">
+            <h2>
+              飞利浦电子（苏州）有限公司       注册号：320500400040155
+          			         
+			               
+              <script type="text/javascript">
+//<![CDATA[
+
+	      var existsAbnormal = false;
+	      jQuery(function() {
+	          if(existsAbnormal){
+	        	  jQuery('#zhucehao').find('h2').addClass('existsAbnormal');
+	          }
+	      });
+      
+//]]>
+              </script>
+            </h2>
+            <br/>
+          </div>
+        </div>
+        <div id="leftTabs">
+          <ul>
+            <ul>
+              <li onclick="togo('1')" style="margin-bottom: 2px;">
+                <p>
+                  
+              工
+                  <br/>
+                  商
+                  <br/>
+                  公
+                  <br/>
+                  示
+                  <br/>
+                  信
+                  <br/>
+                  息
+            
+                </p>
+              </li>
+              <li class="current">
+                <p>
+                  
+              企
+                  <br/>
+                  业
+                  <br/>
+                  公
+                  <br/>
+                  示
+                  <br/>
+                  信
+                  <br/>
+                  息
+            
+                </p>
+              </li>
+              <li onclick="togo('3')">
+                <p style="padding-top: 15px;">
+                  
+              其
+                  <br/>
+                  他
+                  <br/>
+                  部
+                  <br/>
+                  门
+                  <br/>
+                  公
+                  <br/>
+                  示
+                  <br/>
+                  信
+                  <br/>
+                  息
+            
+                </p>
+              </li>
+              <li onclick="togo('4')" style="margin-bottom: 2px;">
+                <p>
+                  司
+                  <br/>
+                  法
+                  <br/>
+                  协
+                  <br/>
+                  助
+                  <br/>
+                  公
+                  <br/>
+                  示
+                  <br/>
+                  信
+                  <br/>
+                  息
+                </p>
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div id="detailsCon" style="width: 950px; border: 1px solid #cecdcb; float: right; height: 514px;" class="">
+          <div class="dConBox">
+            <div class="tabs" id="tabs">
+              <ul>
+                <li id="0" onclick="r0(),changeStyle('tabs',this)" class="">
+                  企业年报
+                </li>
+                <li id="3" onclick="r3(),changeStyle('tabs',this)" class="">
+                  投资人及出资信息
+                </li>
+                <li id="6" onclick="r6(),changeStyle('tabs',this)" class="">
+                  股权变更信息
+                </li>
+                <li id="1" onclick="r1(),changeStyle('tabs',this)" class="">
+                  行政许可及变更信息
+                </li>
+                <li id="2" onclick="r2(),changeStyle('tabs',this)" class="">
+                  知识产权出质登记信息
+                </li>
+                <li id="4" onclick="r4(),changeStyle('tabs',this)" class="current">
+                  行政处罚信息
+                </li>
+              </ul>
+            </div>
+            <h2 id="qiyeTitle" style="text-align:center;">
+              企业公示信息由该企业提供，企业对其公示信息的真实性、合法性负责
+            </h2>
+            <div id="qiyenianbao" style="display: none;">
+              <table id="ts" style="display: none;">
+                <tbody>
+                  <tr>
+                    <th style="width: 940px; height: 520px; background: #f3f3f3;">
+                      <img src="/ecipplatform/images/self_1.gif"/>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <table id="t01" cellspacing="0" cellpadding="0" class="detailsList" style="display: block;">
+                <!-- <tr>
+              <td colspan="3" style="text-align: center;">企业公示信息由该企业提供，企业对其公示信息的真实性、合法性负责</td>
+            </tr>  -->                <tbody>
+                  <tr>
+                    <th colspan="3" style="text-align: center;">
+                      企业年报
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align:center; width: 188px;">
+                      序号
+                    </th>
+                    <th width="55%" style="text-align:center;">
+                      报送年度
+                    </th>
+                    <th width="40%" style="text-align:center;">
+                      发布日期
+                    </th>
+                    <!--              <th style="width: 55%; text-align: center;">年报修改记录</th> -->                  </tr>
+                  <tr bgcolor="#FFFFFF">
+                    <td style="text-align:center;" height="28px;">
+                      1
+                    </td>
+                    <td style="text-align:left;">
+                      <a href="javascript:void(0);" onclick="gotoPage(109931531);" style="text-decoration:none;">
+                        2014年度报告
+                      </a>
+                    </td>
+                    <td style="text-align:center;">
+                      2015-05-15
+                    </td>
+                  </tr>
+                  <tr bgcolor="#FFFFFF">
+                    <td style="text-align:center;" height="28px;">
+                      2
+                    </td>
+                    <td style="text-align:left;">
+                      <a href="javascript:void(0);" onclick="gotoPage(23497637);" style="text-decoration:none;">
+                        2013年度报告
+                      </a>
+                    </td>
+                    <td style="text-align:center;">
+                      2014-08-08
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table id="t02" cellspacing="0" cellpadding="0" class="detailsList" style="display: none">
+                <tbody>
+                  <tr>
+                    <td>
+                      11
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table id="t03" cellspacing="0" cellpadding="0" class="detailsList" style="display: none">
+                <tbody>
+                  <tr>
+                    <td>
+                      22
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table id="t04" cellspacing="0" cellpadding="0" class="detailsList" style="display: none">
+                <tbody>
+                  <tr>
+                    <td>
+                      33
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="xingzhengxuke" style="display: none;">
+              <table name="applicationList1TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody id="tbody_id1">
+                  <tr width="95%">
+                    <th colspan="8" style="text-align:center;">
+                      行政许可信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align:center;">
+                      序号
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      许可文件编号
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      许可文件名称
+                    </th>
+                    <th width="12%" style="text-align:center;">
+                      有效期自
+                    </th>
+                    <th width="12%" style="text-align:center;">
+                      有效期至
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      许可机关
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      许可内容
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="5" style="text-align:center;">
+                      变更信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align:center;">
+                      序号
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      变更事项
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      变更时间
+                    </th>
+                    <th width="30%" style="text-align:center;">
+                      变更前内容
+                    </th>
+                    <th width="30%" style="text-align:center;">
+                      变更后内容
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="zhishichanquan" style="display: none;">
+              <table name="applicationList3TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody id="tbody_id2">
+                  <tr width="95%">
+                    <th colspan="8" style="text-align:center;">
+                      知识产权出质登记信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align:center;">
+                      序号
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      出质商标注册号
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      商标名称
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      类别
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      出质人名称
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      质权人名称
+                    </th>
+                    <th width="15%" style="text-align:center;">
+                      质权登记期限
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      变更情况
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="touziren" style="display: none;">
+              <table name="applicationList4TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody id="tbody_id3">
+                  <tr>
+                    <th colspan="10" style="text-align:center;">
+                                                                投资人及出资信息                               
+                      <a style="cursor:pointer; font-size: 14px; font-weight: bold;" href="javascript:hostory()">
+                        历次修改记录
+                      </a>
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="10%" style="text-align:center;">
+                      投资人名称
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      投资人类型
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      累计认缴额
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      累计实缴额
+                    </th>
+                    <th width="9%" style="text-align:center;">
+                      认缴出资额
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      出资方式
+                    </th>
+                    <th width="11%" style="text-align:center;">
+                      出资时间
+                    </th>
+                    <th width="9%" style="text-align:center;">
+                      实缴出资额
+                    </th>
+                    <th width="10%" style="text-align:center;">
+                      出资方式
+                    </th>
+                    <th width="11%" style="text-align:center;">
+                      出资时间
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="xingzhengchufa" style="display: block;">
+              <table name="applicationList5TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody id="tbody_id4">
+                  <tr width="95%">
+                    <th colspan="5" style="text-align:center;">
+                      行政处罚信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="10%" style="text-align:center;">
+                      序号
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      行政处罚
+                      <br/>
+                      决定书文号
+                    </th>
+                    <th width="25%" style="text-align:center;">
+                      行政处罚内容
+                    </th>
+                    <th width="25%" style="text-align:center;">
+                      作出行政处罚
+                      <br/>
+                      决定机关名称
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      作出行政处罚
+                      <br/>
+                      决定日期
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="gudongguquan" style="display: none;">
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr>
+                    <th colspan="5" style="text-align:center;">
+                      股权变更信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="10%" style="text-align:center;">
+                      序号
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      股东
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      变更前股权比例
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      变更后股权比例
+                    </th>
+                    <th width="20%" style="text-align:center;">
+                      股权变更日期
+                    </th>
+                  </tr>
+                  <!-- <tr>
+            <td style="text-align:center;">1</td>
+            <td style="text-align:left;">张强</td>
+            <td style="text-align:left;">90%</td>
+            <td style="text-align:left;">80%</td>
+            <td style="text-align:center;">2012年6月2日</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">2</td>
+            <td style="text-align:left;">李中诚</td>
+            <td style="text-align:left;">30%</td>
+            <td style="text-align:left;">50%</td>
+            <td style="text-align:center;">2014年7月2日</td>
+          </tr> -->                  <!-- <tr>
+         <th colspan="5" style="text-align:rigth;"><a><<</a>&nbsp;&nbsp;<a>1</a>&nbsp;&nbsp;<a>>></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr> -->                </tbody>
+              </table>
+              <br/>
+            </div>
+            <!--  <div id="tousuyiyi" style="width:990px; height:500px;align:center;display:none">      
+        <div style="float:left;width:500px;height:500px;">
+          <dl style="padding:70px 80px 50px 160px;width:500px;height:500px;" >
+            <dt style="padding-left:80px 80px 80px 180px;"><input type="button" style="height:80px;width:160px;text-align:center;font-size:20px;" name="button" value="用户登录" onclick="window.open('异议投诉-用户登录.html')"/>  </dt>
+            <dt>&nbsp;</dt>
+            <dt>&nbsp;</dt>
+            <dt>&nbsp;</dt>
+            <dt style="padding-left:80px  0px 80px 80px;"><input type="button" style="height:80px;width:160px;text-align:center;font-size:20px;" name="button" value="用户注册" onclick="window.open('异议投诉-用户注册.html')"/> </dt>           
+          </dl>
+        </div>                
+      
+        <div style="float:left;width:400px; height:550px;padding:50px 20px 10px 20px; border:30px 30px;;font-size:24px;">
+          说明:<br/><font size='18'>&nbsp;&nbsp;&nbsp;&nbsp;任何单位或个人对行政机关公示的信息有异议，可以向工商行政管理部门提出，并提供相关证明材料。<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;公示信息异议投诉，请使用真实身份予以注册，以便于联系及问题反馈，谢谢！</font>
+        <div style="margin-left:20px;margin-top:20px;">
+        </div>
+        </div>
+      </div>
+      -->          </div>
+        </div>
+      </div>
+    </form>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <div id="footer">
+      <img src="/ecipplatform/images/bottom_js.gif" width="990"/>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+  jQuery(function() {
+      r0();
+      $('#0').attr("class","current");         
+  });
+    function r0() {
+      document.getElementById('qiyenianbao').style.display = 'block';
+      document.getElementById('xingzhengxuke').style.display = 'none';
+      document.getElementById('t01').style.display = 'block';
+      document.getElementById('ts').style.display = 'none';
+      document.getElementById('zhishichanquan').style.display='none';
+      document.getElementById('xingzhengchufa').style.display = 'none';
+      document.getElementById('gudongguquan').style.display='none';
+      //document.getElementById('tousuyiyi').style.display='none';
+    }
+    function r1() {
+      document.getElementById('qiyenianbao').style.display = 'none';
+      document.getElementById('xingzhengxuke').style.display = 'block';
+      document.getElementById('zhishichanquan').style.display='none';
+      document.getElementById('xingzhengchufa').style.display = 'none';
+      document.getElementById('gudongguquan').style.display='none';
+      //document.getElementById('tousuyiyi').style.display='none';
+    }
+    function r2() {
+      document.getElementById('qiyenianbao').style.display = 'none';
+      document.getElementById('xingzhengxuke').style.display = 'none';
+      document.getElementById('zhishichanquan').style.display='block';
+      document.getElementById('xingzhengchufa').style.display = 'none';
+      document.getElementById('gudongguquan').style.display='none';
+      //document.getElementById('tousuyiyi').style.display='none';
+    }
+    function r3() {
+      document.getElementById('qiyenianbao').style.display = 'none';
+      document.getElementById('xingzhengxuke').style.display = 'none';
+      document.getElementById('zhishichanquan').style.display='none';
+      document.getElementById('touziren').style.display = 'block';
+      document.getElementById('xingzhengchufa').style.display = 'none';
+      document.getElementById('gudongguquan').style.display='none';
+      //document.getElementById('tousuyiyi').style.display='none';;
+    }
+    function r4() {
+      document.getElementById('qiyenianbao').style.display = 'none';
+      document.getElementById('xingzhengxuke').style.display = 'none';
+      document.getElementById('zhishichanquan').style.display='none';
+      document.getElementById('xingzhengchufa').style.display = 'block';
+      document.getElementById('gudongguquan').style.display='none';
+      //document.getElementById('tousuyiyi').style.display='none';
+    }
+    function r5() {
+      document.getElementById('qiyenianbao').style.display = 'none';
+      document.getElementById('xingzhengxuke').style.display = 'none';
+      document.getElementById('zhishichanquan').style.display='none';
+      document.getElementById('xingzhengchufa').style.display = 'none';
+      document.getElementById('gudongguquan').style.display='none';
+      //document.getElementById('tousuyiyi').style.display='block';
+    }
+    
+    function r6(){
+        document.getElementById('qiyenianbao').style.display='none';
+        document.getElementById('xingzhengxuke').style.display='none';
+        document.getElementById('zhishichanquan').style.display='none';
+        document.getElementById('touziren').style.display='none';
+        document.getElementById('xingzhengchufa').style.display='none';
+        document.getElementById('gudongguquan').style.display='block';
+    }
+
+    function t01() {
+      document.getElementById('t0').style.display = 'block';
+      document.getElementById('t1').style.display = 'none';
+
+    }
+
+    function t02() {
+      document.getElementById('t0').style.display = 'none';
+      document.getElementById('t1').style.display = 'block';
+
+    }
+
+    function t03() {
+      document.getElementById('t01').style.display = 'none';
+      document.getElementById('t02').style.display = 'none';
+      document.getElementById('t03').style.display = 'block';
+      document.getElementById('t04').style.display = 'none';
+    }
+
+    function t04() {
+      document.getElementById('t01').style.display = 'none';
+      document.getElementById('t02').style.display = 'none';
+      document.getElementById('t03').style.display = 'none';
+      document.getElementById('t04').style.display = 'block';
+    }
+
+    function t11() {
+      document.getElementById('t11').style.display = 'block';
+      document.getElementById('t12').style.display = 'none';
+    }
+
+    function t12() {
+      document.getElementById('t11').style.display = 'none';
+      document.getElementById('t12').style.display = 'block';
+    }
+
+function togo(str) {
+      
+      var $form = jQuery('#formx');
+      var action = "";
+      if (str == '1') {
+        action="outer_fiei_queryCorpInfor_gsRelease.jsp";
+      } else if (str == '2') {
+        action="outer_fiei_queryCorpInfo_qyRelease.jsp";
+      } else if (str == '3') {
+        action="outer_fiei_queryCorpInfo_qtbmRelease.jsp";
+      } else if (str == '4') {
+       action="outer_fiei_queryJudicialAssistance.jsp";
+      }
+         
+      $form.attr('action',action);
+      $form.attr('target','_self');    
+      $form.submit();
+      
+    }
+jQuery(function(){
+    changeHeight('touziren');
+    });  
+    /**
+     * 动态变更右侧高度
+     */
+    function changeHeight(id) {
+        var _right = jQuery('#'+id).height();
+        var _left = jQuery('#leftTabs').height();
+        if (_left > _right) {
+            jQuery('#detailsCon').css({
+                'width' : '950px',
+                'border' : '1px solid #cecdcb',
+                'float' : 'right',
+                'height' : _left+'px'
+            });
+        } else {
+            jQuery('#detailsCon').removeAttr('style');
+        }
+    }
+  
+//]]>
+    </script>
+    <script type="text/javascript" defer="defer">
+//<![CDATA[
+
+    function changeStyle(divId, ele) {
+      var liAry = document.getElementById(divId).getElementsByTagName(
+          "li");
+      var liLen = liAry.length;
+      var liID = ele.id;
+      for ( var i = 0; i < liLen; i++) {
+        if (liAry[i].id == liID) {
+          liAry[i].className = "current";
+
+        } else {
+          liAry[i].className = "";
+        }
+      }
+    }
+  
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var org = '1402';
+    var id = '53983378';
+    var seq_id = '26';
+    var getPath = function(){
+      return '/ecipplatform';
+    };
+    var reg_no = '320500400040155';  
+    var specificQuery='wstzqy_pb';
+    var admit_main='10';
+  
+//]]>
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/ecipplatform/enterprisePublicity/annualReportList.js">
+    </script>
+  </body>
+</html>

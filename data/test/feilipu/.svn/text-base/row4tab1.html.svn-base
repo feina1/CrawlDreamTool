@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <link href="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/ecipplatform/js/jquery/jquery-1.7.2.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/pagination.js">
+    </script>
+  </head>
+  <body>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <div id="header">
+      <img src="/ecipplatform/images/head_03.jpg" width="990"/>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <form id="formx" name="formx" action="" method="post">
+      <input type="hidden" id="org" name="org" value="1402"/>
+      <input type="hidden" id="id" name="id" value="53983378"/>
+      <input type="hidden" id="seq_id" name="seq_id" value="26"/>
+      <input type="hidden" id="corp_name" name="corp_name" value="飞利浦电子（苏州）有限公司"/>
+      <input type="hidden" id="reg_no" name="reg_no" value="320500400040155"/>
+      <input type="hidden" id="existsAbnormal" name="existsAbnormal" value="false"/>
+      <!-- 司法协助公示详情参数 -->      <input type="hidden" id="freezeStatus" name="freezeStatus" value=""/>
+      <input type="hidden" id="sf_corpOrg" name="sf_corpOrg" value=""/>
+      <input type="hidden" id="sf_corpId" name="sf_corpId" value=""/>
+      <input type="hidden" id="sf_org" name="sf_org" value="1402"/>
+      <input type="hidden" id="sf_id" name="sf_id" value="53983378"/>
+      <input type="hidden" id="sf_seq_id" name="sf_seq_id" value="26"/>
+      <div id="details" class="clear">
+        <div>
+          <div id="zhucehao">
+            <h2>
+              飞利浦电子（苏州）有限公司       注册号：320500400040155
+								         
+			               
+              <script type="text/javascript">
+//<![CDATA[
+
+	      var existsAbnormal = false;
+	      jQuery(function() {
+	          if(existsAbnormal){
+	        	  jQuery('#zhucehao').find('h2').addClass('existsAbnormal');
+	          }
+	      });
+      
+//]]>
+              </script>
+            </h2>
+            <br/>
+          </div>
+        </div>
+        <div id="leftTabs">
+          <ul>
+            <li onclick="togo('1')" style="margin-bottom: 2px;">
+              <p>
+                
+							工
+                <br/>
+                商
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('2')">
+              <p>
+                
+							企
+                <br/>
+                业
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('3')">
+              <p style="padding-top: 15px;">
+                
+							其
+                <br/>
+                他
+                <br/>
+                部
+                <br/>
+                门
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li class="current" style="margin-bottom: 2px;">
+              <p>
+                
+							司
+                <br/>
+                法
+                <br/>
+                协
+                <br/>
+                助
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div id="detailsCon" style="width: 950px; border: 1px solid #cecdcb; float: right; height: 514px;" class="">
+          <div class="dConBox">
+            <div class="tabs" id="tabs">
+              <ul>
+                <li id="0" onclick="r0(),changeStyle('tabs',this)" class="">
+                  股权冻结信息
+                </li>
+                <li id="1" onclick="r1(),changeStyle('tabs',this)" class="current">
+                  股东变更信息
+                </li>
+              </ul>
+            </div>
+            <div id="guquandongjie" style="display: none;">
+              <br/>
+              <table name="gddjTAB" id="t01" cellspacing="0" cellpadding="0" class="detailsList">
+                <tbody id="tbody_id1">
+                  <tr>
+                    <th colspan="7" style="text-align: center;">
+                      司法股权冻结信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="8%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      被执行人
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      股权数额
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      执行法院
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      协助公示通知书文号
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      状态
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      详情
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="guquanbiangeng" style="display: block;">
+              <br/>
+              <table id="t01" name="gdbgTAB" cellspacing="0" cellpadding="0" class="detailsList">
+                <tbody id="tbody_id2">
+                  <tr>
+                    <th colspan="7" style="text-align: center;">
+                      司法股东变更登记信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="8%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      被执行人
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      股权数额
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      受让人
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      执行法院
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      详情
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3_ZJ.css" type="text/css" rel="stylesheet"/>
+    <div id="footer">
+      <img src="/ecipplatform/images/bottom_js.gif" width="990"/>
+    </div>
+    <script type="text/javascript">
+//<![CDATA[
+
+  jQuery(function() {
+      r0();
+      $('#0').attr("class","current");         
+  });
+    function r0() {
+      document.getElementById('guquandongjie').style.display = 'block';
+      document.getElementById('guquanbiangeng').style.display = 'none';
+    }
+    function r1() { 
+      document.getElementById('guquandongjie').style.display = 'none';
+      document.getElementById('guquanbiangeng').style.display = 'block';
+    }
+
+function togo(str) {
+      
+      var $form = jQuery('#formx');
+      var action = "";
+      if (str == '1') {
+        action="outer_fiei_queryCorpInfor_gsRelease.jsp";
+      } else if (str == '2') {
+        action="outer_fiei_queryCorpInfo_qyRelease.jsp";
+      } else if (str == '3') {
+        action="outer_fiei_queryCorpInfo_qtbmRelease.jsp";
+      }
+      
+      $form.attr('action',action);
+      $form.attr('target','_self');    
+      $form.submit();
+      
+    }
+jQuery(function(){
+    changeHeight('sifapanding');
+    });  
+    /**
+     * 动态变更右侧高度
+     */
+    function changeHeight(id) {
+        var _right = jQuery('#'+id).height();
+        var _left = jQuery('#leftTabs').height();
+        if (_left > _right) {
+            jQuery('#detailsCon').css({
+                'width' : '950px',
+                'border' : '1px solid #cecdcb',
+                'float' : 'right',
+                'height' : _left+'px'
+            });
+        } else {
+            jQuery('#detailsCon').removeAttr('style');
+        }
+    }
+  
+//]]>
+    </script>
+    <script type="text/javascript" defer="defer">
+//<![CDATA[
+
+    function changeStyle(divId, ele) {
+      var liAry = document.getElementById(divId).getElementsByTagName(
+          "li");
+      var liLen = liAry.length;
+      var liID = ele.id;
+      for ( var i = 0; i < liLen; i++) {
+        if (liAry[i].id == liID) {
+          liAry[i].className = "current";
+
+        } else {
+          liAry[i].className = "";
+        }
+      }
+    }
+  
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var org = '1402';
+    var id = '53983378';
+    var seq_id = '26';
+    var getPath = function(){
+      return '/ecipplatform';
+    };
+    var reg_no = '320500400040155';
+  
+//]]>
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/ecipplatform/commomPage/judiciaAssistance.js">
+    </script>
+  </body>
+</html>

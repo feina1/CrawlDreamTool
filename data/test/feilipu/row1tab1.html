@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+      全国企业信用信息公示系统(江苏)
+    </title>
+    <link href="/ecipplatform/css/public3.css" type="text/css" rel="stylesheet"/>
+    <link href="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/ecipplatform/js/jquery/jquery-1.7.2.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/jquery-loadmask-0.4/jquery.loadmask.min.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/replacePlaceHolderByData.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/myJsTools/paginations.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+   
+    function r0()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'block';
+        document.getElementById( 'baseinfo' ).style.display = 'block';
+
+        document.getElementById( 'biangeng' ).style.display = 'block';
+        document.getElementById( 'beian' ).style.display = 'none';
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r1()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'block';
+        document.getElementById( 'beian' ).style.display = 'none';
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r2()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+        document.getElementById( 'beian' ).style.display = 'block';
+        document.getElementById( 't30' ).style.display = 'block';
+        document.getElementById( 't31' ).style.display = 'block';
+        document.getElementById( 't32' ).style.display = 'block';
+
+//         document.getElementById( '30' ).className = 'current';
+//         document.getElementById( '31' ).className = '';
+//         document.getElementById( '32' ).className = '';
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r3()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+        document.getElementById( 'beian' ).style.display = 'none';
+        document.getElementById( 'guquanchuzhi' ).style.display = 'block';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r4()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+        document.getElementById( 'beian' ).style.display = 'none';
+
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'block';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r5()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+
+        document.getElementById( 'beian' ).style.display = 'none';
+
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='block';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r6()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+        document.getElementById( 'beian' ).style.display = 'none';
+
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='block';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r7()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+        document.getElementById( 'beian' ).style.display = 'none';
+
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'block';
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'none';
+    }
+    function r8()
+    {
+        document.getElementById( 'jibenxinxi' ).style.display = 'none';
+        document.getElementById( 'biangeng' ).style.display = 'none';
+        document.getElementById( 'beian' ).style.display = 'none';
+
+        document.getElementById( 'guquanchuzhi' ).style.display = 'none';
+        document.getElementById( 'dongchandiya' ).style.display = 'none';
+        document.getElementById( 'heimingdan' ).style.display = 'none';
+        document.getElementById( 'xingzhengchufa' ).style.display = 'none';
+        document.getElementById( 'chouchaxinxi' ).style.display = 'block';
+        
+        document.getElementById('jingyingyichangminglu').style.display='none';
+        document.getElementById('yanzhongweifaqiye').style.display='none';
+    }
+
+    function t30()
+    {
+        document.getElementById( 't30' ).style.display = 'block';
+        document.getElementById( 't31' ).style.display = 'none';
+        document.getElementById( 't32' ).style.display = 'none';
+    }
+
+    function t31()
+    {
+        document.getElementById( 't30' ).style.display = 'none';
+        document.getElementById( 't31' ).style.display = 'block';
+        document.getElementById( 't32' ).style.display = 'none';
+    }
+
+    function t32()
+    {
+        document.getElementById( 't30' ).style.display = 'none';
+        document.getElementById( 't31' ).style.display = 'none';
+        document.getElementById( 't32' ).style.display = 'block';
+    }
+
+    function togo(str){
+    	
+    	var $form = jQuery('#formx');
+		var action = "";
+		if (str == '1') {
+			action="outer_fiei_queryCorpInfor_gsRelease.jsp";
+		} else if (str == '2') {
+			action="outer_fiei_queryCorpInfo_qyRelease.jsp?flag=";
+		} else if (str == '3') {
+			action="outer_fiei_queryCorpInfo_qtbmRelease.jsp";
+		} else if (str == '4') {
+	       action="outer_fiei_queryJudicialAssistance.jsp";
+    }
+		
+		$form.attr('action',action);
+		$form.attr('target','_self');
+		$form.submit();
+    	
+    }
+
+//]]>
+    </script>
+    <script type="text/javascript" defer="defer">
+//<![CDATA[
+
+    function changeStyle( divId, ele )
+    {
+        var liAry = document.getElementById( divId ).getElementsByTagName( "li" );
+        var liLen = liAry.length;
+        var liID = ele.id;
+        for ( var i = 0; i < liLen; i++ )
+        {
+            if ( liAry[i].id == liID )
+            {
+                liAry[i].className = "current";
+
+            }
+            else
+            {
+                liAry[i].className = "";
+            }
+        }
+    }
+
+    function ShowSpan( obj, n )
+    {
+        var span = obj.parentNode.getElementsByTagName( "tabs" );
+        for ( var i = 0; i < span.length; i++ )
+        {
+            span[i].className = "current";
+        }
+        span[n].className = "";
+        var li = obj.parentNode.getElementsByTagName( "li" );
+        li[n].className = "current";
+        for ( var i = 0; i < li.length; i++ )
+        {
+            if ( i != n )
+            {
+                li[i].className = "";
+            }
+            li[i].onmouseout = function()
+            {
+                this.className = "current";
+            };
+        }
+    }
+
+//]]>
+    </script>
+  </head>
+  <body>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3.css" type="text/css" rel="stylesheet"/>
+    <div id="header">
+      <img src="/ecipplatform/images/head_03.jpg" width="990"/>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <form id="formx" name="formx" action="" method="post">
+      <input type="hidden" id="bool" name="bool" value="1"/>
+      <input type="hidden" id="org" name="org" value="1402"/>
+      <input type="hidden" id="id" name="id" value="53983378"/>
+      <input type="hidden" id="seq_id" name="seq_id" value="26"/>
+      <div id="details" class="clear">
+        <div id="parent_id1">
+          <div>
+            <h2>
+              飞利浦电子（苏州）有限公司       注册号：320500400040155
+              <span id="abnormal" style="display: none">
+                           “该企业已列入经营异常名录”
+              </span>
+            </h2>
+            <input type="hidden" id="corp_name" name="corp_name" value="飞利浦电子（苏州）有限公司"/>
+            <input type="hidden" id="reg_no" name="reg_no" value="320500400040155"/>
+            <input type="hidden" id="existsAbnormal" name="existsAbnormal" value="false"/>
+            <br/>
+          </div>
+        </div>
+        <div id="leftTabs">
+          <ul>
+            <li class="current" style="margin-bottom: 2px;">
+              <p>
+                
+							工
+                <br/>
+                商
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('2')" style="margin-bottom: 2px;">
+              <p>
+                
+							企
+                <br/>
+                业
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('3')">
+              <p style="padding-top: 15px;">
+                
+							其
+                <br/>
+                他
+                <br/>
+                部
+                <br/>
+                门
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+            <li onclick="togo('4')" style="margin-bottom: 2px;">
+              <p>
+                
+							司
+                <br/>
+                法
+                <br/>
+                协
+                <br/>
+                助
+                <br/>
+                公
+                <br/>
+                示
+                <br/>
+                信
+                <br/>
+                息
+						
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div id="detailsCon" class="">
+          <div class="dConBox">
+            <div class="tabs" id="tabs">
+              <ul>
+                <li id="0" class="current" onclick="r0(),changeStyle('tabs',this)">
+                  登记信息
+                </li>
+                <!--                     <li id="1" onclick="r1(),changeStyle('tabs',this)">变更信息</li> -->                <li id="2" onclick="r2(),changeStyle('tabs',this)">
+                  备案信息
+                </li>
+                <li id="4" onclick="r4(),changeStyle('tabs',this)">
+                  动产抵押登记信息
+                </li>
+                <li id="3" style="display: block;" onclick="r3(),changeStyle('tabs',this)">
+                  股权出质登记信息
+                </li>
+                <!--                     <li id="5" onclick="r5(),changeStyle('tabs',this)">异常名录信息</li> -->                <!--                     <li id="6" onclick="r6(),changeStyle('tabs',this)">黑名单信息</li> -->                <li id="7" onclick="r7(),changeStyle('tabs',this)">
+                  行政处罚信息
+                </li>
+                <li id="5" onclick="r5(),changeStyle('tabs',this)">
+                  经营异常信息
+                </li>
+                <li id="6" onclick="r6(),changeStyle('tabs',this)">
+                  严重违法信息
+                </li>
+                <li id="8" onclick="r8(),changeStyle('tabs',this)">
+                  抽查检查信息
+                </li>
+                <!--                     <li id="8" onclick="r8(),changeStyle('tabs',this)">抽查信息</li> -->              </ul>
+            </div>
+            <div id="jibenxinxi">
+              <br/>
+              <div id="parent_id3">
+                <div>
+                  <table cellspacing="0" cellpadding="0" class="detailsList" id="baseinfo">
+                    <tbody>
+                      <tr>
+                        <th colspan="4" style="text-align: center;">
+                          基本信息
+                        </th>
+                      </tr>
+                      <tr>
+                        <th width="20%">
+                          注册号
+                        </th>
+                        <td id="zc" width="30%">
+                          320500400040155
+                        </td>
+                        <th>
+                          名称
+                        </th>
+                        <td width="30%">
+                          飞利浦电子（苏州）有限公司
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          类型
+                        </th>
+                        <td>
+                          有限责任公司(外国法人独资)
+                        </td>
+                        <th>
+                          法定代表人
+                        </th>
+                        <td>
+                          Alain Perrot
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          注册资本
+                        </th>
+                        <td>
+                          30万美元
+                        </td>
+                        <th>
+                          成立日期
+                        </th>
+                        <td id="detail">
+                          2011年03月03日
+                        </td>
+                      </tr>
+                      <tr>
+                        <th width="188px">
+                          住所
+                        </th>
+                        <td colspan="3">
+                          苏州高新区竹园路209号3幢19-20层
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          营业期限自
+                        </th>
+                        <td>
+                          2011年03月03日
+                        </td>
+                        <th>
+                          营业期限至
+                        </th>
+                        <td>
+                          2036年03月02日
+                        </td>
+                      </tr>
+                      <tr>
+                        <th width="188px" valign="middle">
+                          经营范围
+                        </th>
+                        <td colspan="3">
+                          向境内外的飞利浦关联公司和其他公司提供产品相关的测试、技术服务以及咨询等知识流程外包服务，和供应链、运营管理、产品生命周期管理、质量管控和新品导入等业务流程外包服务。从事电子产品、家用电器、个人护理、母婴用品、照明产品等产品及其零件、配套件的研发和销售，上述商品的批发、佣金代理（拍卖除外）、进出口及其他相关配套业务（不涉及国营贸易管理商品，涉及配额、许可证管理商品的，按国家有关规定办理申请）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          登记机关
+                        </th>
+                        <td>
+                          苏州高新区（虎丘区）市场监督管理局
+                        </td>
+                        <th>
+                          核准日期
+                        </th>
+                        <td>
+                          2015年04月30日
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          登记状态
+                        </th>
+                        <td colspan="3">
+                          在业
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <br/>
+              <input type="hidden" id="touziren_org" name="touziren_org"/>
+              <input type="hidden" id="touziren_id" name="touziren_id"/>
+              <input type="hidden" id="touziren_seq_id" name="touziren_seq_id"/>
+              <table cellpadding="0" cellspacing="0" class="detailsList" id="touziren" style="display: block" name="touzirenTAB">
+                <tbody id="tbody_id4">
+                  <tr>
+                    <th colspan="6" style="text-align: center;" id="tzr">
+                      股东（发起人）信息
+									
+                      <h1 style="text-align: center;">
+                        股东的出资信息截止2014年2月28日。2014年2月28日之后工商只公示股东姓名，其他出资信息由企业自行公示。
+                      </h1>
+                    </th>
+                  </tr>
+                  <tr id="chuzixinxiTH" width="95%">
+                    <th width="188px" style="text-align: center;">
+                      股东/发起人类型
+                    </th>
+                    <th width="18%" style="text-align: center;">
+                      股东/发起人
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      证照/证件类型
+                    </th>
+                    <th width="30%" style="text-align: center;">
+                      证照/证件号码
+                    </th>
+                    <th width="10%" style="text-align: center;" dt="detail">
+                      详情
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <td width="188px">
+                      外国企业
+                    </td>
+                    <td>
+                      Home Control Singapore Pte.Ltd
+                    </td>
+                    <td>
+                      营业执照
+                    </td>
+                    <td>
+                      201225008R
+                    </td>
+                    <td dt="detail">
+                      <a href="#" onclick="lookup_touziren('1402','53983380','21')">
+                        详情
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="detailsList" id="toolbar4" width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr name="pTr">
+                    <th style="text-align: right; padding-right: 20px;">
+                      <a href="" id="prePage4">
+                        &lt;&lt;
+                      </a>
+                        
+                      <a href="javascript:void(0)" class="clickPage4" aval="1" style="color:red;">
+                        1
+                      </a>
+                        
+                      <a href="" id="nextPage4">
+                        &gt;&gt;
+                      </a>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="biangeng" style="display: block">
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList" name="biangengxinxiTAB">
+                <tbody id="tbody_id5">
+                  <tr width="95%">
+                    <th colspan="5" style="text-align: center;">
+                      变更信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="188px" style="text-align: center;">
+                      变更事项
+                    </th>
+                    <th width="30%" style="text-align: center;">
+                      变更前内容
+                    </th>
+                    <th width="30%" style="text-align: center;">
+                      变更后内容
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      变更日期
+                    </th>
+                  </tr>
+                  <tr>
+                    <td width="188px">
+                      法定代表人姓名
+                    </td>
+                    <td>
+                      JOSEPHINE SHEN-CHUAN SU
+                    </td>
+                    <td>
+                      Choo Kool Foh
+                    </td>
+                    <td>
+                      2015年01月20日
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="188px">
+                      法定代表人姓名
+                    </td>
+                    <td>
+                      JOSEPHINE SHEN-CHUAN SU
+                    </td>
+                    <td>
+                      CHOO KOOI FOH
+                    </td>
+                    <td>
+                      2015年01月20日
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="188px">
+                      法定代表人姓名
+                    </td>
+                    <td>
+                      CHOO KOOI FOH
+                    </td>
+                    <td>
+                      Alain Perrot
+                    </td>
+                    <td>
+                      2015年04月30日
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="detailsList" id="toolbar5" width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr name="pTr">
+                    <th style="text-align: right; padding-right: 20px;">
+                      <a href="" id="prePage5">
+                        &lt;&lt;
+                      </a>
+                        
+                      <a href="javascript:void(0)" class="clickPage5" aval="1" style="color:red;">
+                        1
+                      </a>
+                        
+                      <a href="" id="nextPage5">
+                        &gt;&gt;
+                      </a>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="beian" style="align: center; display: none">
+              <br/>
+              <!--           <ul class="subTabs">
+            <li id="30" class="current" onclick="t30(),changeStyle('beian',this)">主要人员信息</li>
+            <li id="31" onclick="t31(),changeStyle('beian',this)">分支机构信息</li>
+            <li id="32" onclick="t32(),changeStyle('beian',this)">清算信息</li>
+          </ul> -->              <table id="t30" cellpadding="0" cellspacing="0" class="detailsList" name="zhuyaorenyuanxinxiTAB">
+                <tbody>
+                  <tr width="939px">
+                    <th colspan="6" style="text-align: center;">
+                      主要人员信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th style="width: 94px; text-align: center">
+                      序号
+                    </th>
+                    <th style="width: 22%; text-align: center">
+                      姓名
+                    </th>
+                    <th style="width: 23%; text-align: center">
+                      职务
+                    </th>
+                    <th style="width: 94px; text-align: center">
+                      序号
+                    </th>
+                    <th style="width: 22%; text-align: center">
+                      姓名
+                    </th>
+                    <th style="width: 23%; text-align: center">
+                      职务
+                    </th>
+                  </tr>
+                  <tr id="zhuyaorenyuanxinxi">
+                    <td width="94px">
+                      {VALUES1RN}
+                    </td>
+                    <td>
+                      {PERSON_NAME1}
+                    </td>
+                    <td>
+                      {POSITION_NAME1}
+                    </td>
+                    <td width="94px">
+                      {VALUES2RN}
+                    </td>
+                    <td>
+                      {PERSON_NAME2}
+                    </td>
+                    <td>
+                      {POSITION_NAME2}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <input type="hidden" id="fengongsi_org" name="fengongsi_org"/>
+              <input type="hidden" id="fengongsi_id" name="fengongsi_id"/>
+              <input type="hidden" id="fengongsi_seq_id" name="fengongsi_seq_id"/>
+              <table id="t31" cellpadding="0" cellspacing="0" class="detailsList" style="display: none; margin-top: 15px;" name="fengongsixinxiTAB">
+                <tbody>
+                  <tr width="939px">
+                    <th colspan="4" style="text-align: center;">
+                      分支机构信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th style="text-align: center; width: 188px">
+                      序号
+                    </th>
+                    <th style="text-align: center; width: 30%">
+                      注册号
+                    </th>
+                    <th style="text-align: center; width: 30%">
+                      名称
+                    </th>
+                    <th style="text-align: center; width: 30%">
+                      登记机关
+                    </th>
+                  </tr>
+                  <tr id="fengongsixinxi">
+                    <td width="188px">
+                      {NO_}
+                    </td>
+                    <td>
+                      {C1}
+                    </td>
+                    <td>
+                      {C2}
+                    </td>
+                    <td>
+                      {C3}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div>
+                <div id="qingsuanrenyuan">
+                  <table id="t32" cellpadding="0" cellspacing="0" class="detailsList" style="display: none; margin-top: 15px;" name="qingsuanrenyuanTAB">
+                    <tbody>
+                      <tr width="939px">
+                        <th colspan="5" style="text-align:center;">
+                          清算信息
+                        </th>
+                      </tr>
+                      <tr id="qszfzrTR">
+                        <th width="188px">
+                          清算组负责人
+                        </th>
+                        <td id="qszfzr" colspan="4" width="80%"/>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div id="guquanchuzhi" style="display: none">
+              <br/>
+              <input type="hidden" id="guquan_org" name="guquan_org"/>
+              <input type="hidden" id="guquan_id" name="guquan_id"/>
+              <input type="hidden" id="guquan_seq_id" name="guquan_seq_id"/>
+              <table name="applicationList4TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="10" style="text-align: center;">
+                      股权出质登记信息
+                    </th>
+                  </tr>
+                  <tr>
+                    <th style="text-align: center; width: 5%;">
+                      序号
+                    </th>
+                    <th style="text-align: center; width: 10%;">
+                      登记编号
+                    </th>
+                    <th style="text-align: center; width: 10%;">
+                      出质人
+                    </th>
+                    <th style="text-align: center; width: 15%;">
+                      证照/证件号码
+                    </th>
+                    <th style="text-align: center; width: 10%;">
+                      出质股权数额
+                    </th>
+                    <th style="text-align: center; width: 8%;">
+                      质权人
+                    </th>
+                    <th style="text-align: center; width: 15%;">
+                      证照/证件号码
+                    </th>
+                    <th style="text-align: center; width: 12%;">
+                      股权出质设立登记日期
+                    </th>
+                    <th style="text-align: center; width: 5%;">
+                      状态
+                    </th>
+                    <th style="text-align: center; width: 10%;">
+                      变化情况
+                    </th>
+                  </tr>
+                  <tr id="application4"/>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="guquandongjie" style="display: none">
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="5" style="text-align: center;">
+                      股权冻结信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="25%" style="text-align: center;">
+                      被冻结/解冻股东名称
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      冻结/解冻金额
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      冻结/解冻文号
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      冻结/解冻截止日期
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      冻结/解冻状态
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <td colspan="5" style="text-align: center;">
+                      此企业无股权冻结信息
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="dongchandiya" style="display: none">
+              <br/>
+              <input type="hidden" id="dc_org" name="dc_org"/>
+              <input type="hidden" id="dc_id" name="dc_id"/>
+              <input type="hidden" id="dc_seq_id" name="dc_seq_id"/>
+              <table name="applicationListTAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="7" style="text-align: center;">
+                      动产抵押登记信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      登记编号
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      登记日期
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      登记机关
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      被担保债权数额
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      状态
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      详情
+                    </th>
+                  </tr>
+                  <tr width="95%" id="application3">
+                    <td style="text-align: center;">
+                      {NO_}
+                    </td>
+                    <td style="text-align: left;">
+                      {C1}
+                    </td>
+                    <td style="text-align: center;">
+                      {C2}
+                    </td>
+                    <td style="text-align: left;">
+                      {C3}
+                    </td>
+                    <td style="text-align: right;">
+                      {C4}
+                    </td>
+                    <td style="text-align: left;">
+                      {C5}
+                    </td>
+                    <td style="text-align: left;">
+                      <a href="javascript:void(0);" onclick="lookup_ChattelDetail('{ORG}','{ID}','{SEQ_ID}');">
+                        详情
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="wenjiandongdaren" style="display: none">
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="4" style="text-align: center;">
+                      文件送达人信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="25%" style="text-align: center;">
+                      接收人
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      联系人
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      电子邮件
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      联系电话
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <td width="15%"/>
+                    <td width="15%"/>
+                    <td width="15%"/>
+                    <td width="15%"/>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="xingzhengchufa" style="display: none">
+              <br/>
+              <input type="hidden" id="xingzheng_org" name="xingzheng_org"/>
+              <input type="hidden" id="xingzheng_id" name="xingzheng_id"/>
+              <input type="hidden" id="xingzheng_seq_id" name="xingzheng_seq_id"/>
+              <input type="hidden" id="xingzheng_party_org" name="xingzheng_party_org"/>
+              <input type="hidden" id="xingzheng_party_id" name="xingzheng_party_id"/>
+              <table name="applicationList1TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="7" style="text-align: center;">
+                      行政处罚信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      行政处罚
+                      <br/>
+                      决定书文号
+								
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      违法行为类型
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      行政处罚内容
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      作出行政处罚
+                      <br/>
+                      决定机关名称
+								
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      作出行政处罚
+                      <br/>
+                      决定日期
+								
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      详情
+                    </th>
+                  </tr>
+                  <tr id="xingzhengchufaxinxi">
+                    <td>
+                      {NO_}
+                    </td>
+                    <td>
+                      {C1}
+                    </td>
+                    <td>
+                      {C2}
+                    </td>
+                    <td>
+                      {C3}
+                    </td>
+                    <td>
+                      {C4}
+                    </td>
+                    <td>
+                      {C5}
+                    </td>
+                    <td style="text-align: left;">
+                      <a href="javascript:void(0);" onclick="lookUp_xingzheng('{ORG}','{ID}','{SEQ_ID}','{PARTY_ORG}','{PARTY_ID}');">
+                        详情
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="jingyingyichangminglu" style="display: none">
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList" name="yichangmingluxinxiTAB">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="6" style="text-align: center;">
+                      经营异常信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      列入经营异常名录原因
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      列入日期
+                    </th>
+                    <th width="27%" style="text-align: center;">
+                      移出经营异常名录原因
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      移出日期
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      作出决定机关
+                    </th>
+                  </tr>
+                  <tr id="yichangmingluxinxi" width="95%">
+                    <td style="text-align:center;">
+                      {NO_}
+                    </td>
+                    <td style="text-align:left;">
+                      {C1}
+                    </td>
+                    <td style="text-align:center;">
+                      {C2}
+                    </td>
+                    <td style="text-align:left;">
+                      {C3}
+                    </td>
+                    <td style="text-align:center;">
+                      {C4}
+                    </td>
+                    <td style="text-align:left;">
+                      {C5}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="yanzhongweifaqiye" style="display: none">
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="6" style="text-align: center;">
+                      严重违法信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="25%" style="text-align: center;">
+                      列入严重违法企业名单原因
+                    </th>
+                    <th width="13%" style="text-align: center;">
+                      列入日期
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      移出严重违法企业名单原因
+                    </th>
+                    <th width="13%" style="text-align: center;">
+                      移出日期
+                    </th>
+                    <th width="24%" style="text-align: center;">
+                      作出决定机关
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="chouchaxinxi" style="align: center; display: none">
+              <br/>
+              <table name="applicationList5TAB" cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="5" style="text-align: center;">
+                      抽查检查信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="5%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="35%" style="text-align: center;">
+                      检查实施机关
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      类型
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      日期
+                    </th>
+                    <th width="35%" style="text-align: center;">
+                      结果
+                    </th>
+                  </tr>
+                  <tr id="choucha">
+                    <td>
+                      {NO_}
+                    </td>
+                    <td>
+                      {C1}
+                    </td>
+                    <td>
+                      {C2}
+                    </td>
+                    <td>
+                      {C3}
+                    </td>
+                    <td>
+                      {C4}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="yichangminglu" style="align: center; display: none">
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="9" style="text-align: center;">
+                      异常名录信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="10%" style="text-align: center;">
+                      序号
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      载入异常名录时间
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      载入异常名录事由
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      载出异常名录时间
+                    </th>
+                    <th width="15%" style="text-align: center;">
+                      载出异常名录事由
+                    </th>
+                    <th width="10%" style="text-align: center;">
+                      记载状态
+                    </th>
+                    <th width="20%" style="text-align: center;">
+                      登记机关
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <td width="888px" colspan="7" style="text-align: center;">
+                      
+									此企业暂无异常名录信息
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+            <div id="heimingdan" style="align: center; display: none">
+              <br/>
+              <table cellpadding="0" cellspacing="0" class="detailsList">
+                <tbody>
+                  <tr width="95%">
+                    <th colspan="6" style="text-align: center;">
+                      黑名单信息
+                    </th>
+                  </tr>
+                  <tr width="95%">
+                    <th width="15%" style="text-align: center;">
+                      载入黑名单事由
+                    </th>
+                    <td colspan="3"/>
+                  </tr>
+                  <tr width="95%">
+                    <th width="15%" style="text-align: center;">
+                      载入黑名单时间
+                    </th>
+                    <td/>
+                    <th width="15%" style="text-align: center;">
+                      法定代表人
+                    </th>
+                    <td/>
+                  </tr>
+                  <tr width="95%">
+                    <th width="15%" style="text-align: center;">
+                      登记机关
+                    </th>
+                    <td colspan="3"/>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>
+      全国企业信用信息公示系统（江苏）
+    </title>
+    <link href="/ecipplatform/css/public3.css" type="text/css" rel="stylesheet"/>
+    <div id="footer">
+      <img src="/ecipplatform/images/bottom_js.gif" width="990"/>
+    </div>
+    <script type="text/javascript" src="/ecipplatform/js/ecipplatform/outer_fiei/fiei_common.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/common/existsAbnormal.js">
+    </script>
+    <script type="text/javascript" src="/ecipplatform/js/ecipplatform/outer_fiei/fiei_queryCorpInfor_gsRelease.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+  var openQuery = true;
+  var reg_no='';
+  function getPath(){
+      return '/ecipplatform';
+  }
+  var existsAbnormalJump = false;
+  var existsInspectionJump = false;//TO DO
+  var id = '53983378';
+
+  var org = '1402';
+  var seq_id = '26';
+  
+  onload=function(){
+  reg_no = '320500400040155';
+  var paramObj = {};
+  paramObj["showRecordLine"] = '0';
+  paramObj["specificQuery"] = 'wstzqy_pb';
+  paramObj["propertiesName"] = 'query_gs_wztzgs';
+  paramObj["REG_NO"] = reg_no;
+  paramObj["tmp"] = new Date();
+  var _data = jQuery.param(paramObj);
+  var _url = getPath() + '/nbServlet.json?nbEnter=true';
+  
+  jQuery.ajax({
+      url : _url,
+      type : 'POST',
+      data : _data,
+      dataType : 'json',
+      async:false,
+      success : function(data) {
+          $("#bool").val(data[0].NUMBER);
+          if(data[0].NUMBER!="" && data[0].NUMBER!="0"){
+              $("#3").css('display','block');
+          }
+      }
+  });
+  };
+  
+//]]>
+    </script>
+  </body>
+</html>
